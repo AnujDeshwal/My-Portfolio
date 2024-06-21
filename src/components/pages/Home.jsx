@@ -33,11 +33,11 @@ const Home = () => {
             Full Stack Developer
           </h1>
           <div className="mt-4 flex  gap-[1rem]  ">
-            <Button
+            <a href="assets/My Resume (1).pdf" download="My Resume (1).pdf"> <Button
               style=" transition-all ease-in-out duration-1000 hover:text-white hover:bg-[#343434] hover:scale-90"
-              onClick={() => console.log("helllo")}
-              content="Download Resume"
-            ></Button>
+              content="My Resume"
+            ></Button></a>
+           
             <a href="#contact">
               <Button
                 content="Contact Info"
