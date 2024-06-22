@@ -33,7 +33,7 @@ const Home = () => {
             Full Stack Developer
           </h1>
           <div className="mt-4 flex  gap-[1rem]  ">
-            <a href="assets/My Resume (1).pdf" download="My Resume (1).pdf"> <Button
+            <a href="assets/My Resume (3).pdf" download="My Resume (3).pdf"> <Button
               style=" transition-all ease-in-out duration-1000 hover:text-white hover:bg-[#343434] hover:scale-90"
               content="My Resume"
             ></Button></a>

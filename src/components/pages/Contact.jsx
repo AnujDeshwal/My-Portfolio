@@ -17,13 +17,13 @@ const Contact = ({ email = "" }) => {
         Contact Me{" "}
       </h1>
       <div
-        className=" md:m-auto  flex   justify-center    items-center border-[2px] border-gray-300 mt-16 rounded-[2em] p-4  hover:bg-gray-200 transition-all duration-300 ease-in-out w-[20rem]
+        className=" md:m-auto  flex   justify-center    items-center border-[2px] border-gray-300 mt-16 rounded-[2em] p-4  hover:bg-gray-200 transition-all duration-300 ease-in-out w-[22rem]
         md:w-[32rem] "
         
       >
         <MailOutlineIcon sx={{fontSize:"2.5rem"}}/>
-        <div onClick={handleEmailClick} className=" text-[1.2rem] group overflow-hidden h-[4rem] flex flex-col justify-center items-center w-[18rem]  md:w-[20rem] hover:text-gray-600   transition-all ease-in-out duration-1000 cursor-pointer text-center md:text-[1.5rem] text-black"><h1>{email}</h1>
-        <div className="group-hover:translate-x-[0] transition-all ease-in-out duration-1000   h-[0.2rem] w-[20rem] border-[0.1rem] border-gray-600 translate-x-[-20rem] group"></div>
+        <div onClick={handleEmailClick} className=" text-[1.2rem] group overflow-hidden h-[4rem] flex flex-col justify-center items-center w-[20rem]  md:w-[23rem] hover:text-gray-600   transition-all ease-in-out duration-1000 cursor-pointer text-center md:text-[1.5rem] text-black"><h1>{email}</h1>
+        <div className="group-hover:translate-x-[0] transition-all ease-in-out duration-1000   h-[0.2rem] w-[20rem] border-[0.1rem] border-gray-600 translate-x-[-23rem] group"></div>
         </div>
 
 
