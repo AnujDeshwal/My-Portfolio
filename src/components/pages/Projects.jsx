@@ -11,7 +11,7 @@ const Projects = () => {
         Projects{" "}
       </h1>
       <div className="flex flex-wrap justify-around items-start mt-8 gap-y-12">
-        <ProjectElem name="Ecommerce webapp" avatar="https://res.cloudinary.com/dspsqrnei/image/upload/v1718981940/hello_hhjrz5.png" gitLink="https://github.com/AnujDeshwal/React-Ecommerce-Full-Stack-Webapp" liveLink="https://react-ecommerce-full-stack-webapp.onrender.com"/>
+        <ProjectElem name="Ecommerce webapp" avatar="https://res.cloudinary.com/dspsqrnei/image/upload/v1718981940/hello_hhjrz5.png" gitLink="https://github.com/AnujDeshwal/React-Ecommerce-Full-Stack-Webapp" liveLink="https://react-ecommerce-full-stack-webapp.vercel.app/"/>
         <ProjectElem name="NamasteTalk chatpp" avatar="https://res.cloudinary.com/dspsqrnei/image/upload/v1718983264/helo1_a1y4lk.png" gitLink="https://github.com/AnujDeshwal/NamasateTalk-Frontend" liveLink="https://namasate-talk-frontend.vercel.app/"/>
       </div>
     </div>
