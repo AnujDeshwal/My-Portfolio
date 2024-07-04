@@ -10,9 +10,9 @@ return(
         </div>
         <h1 className=' text-[1.7rem] md:text-[2rem] text-center font-bold'>{name}</h1>
         <div className=' flex justify-around gap-[0.5rem] sm:gap-4 sm:justify-between items-center py-4 px-[0.3rem] sm:px-12'>
-            <Link target="_blank" rel="noopener noreferrer" underline='none' href={`${gitLink!==""?gitLink:"#"}`}><Button style=" cursor-default border-[2px] rounded-[2rem] transition-all ease-in-out duration-1000 hover:text-white hover:bg-black hover:scale-90 w-[7em] h-[3em] sm:w-[10em] sm:h-[4em] " content={"Github"}/></Link>
+            <Link target="_blank" rel="noopener noreferrer" underline='none' href={`${gitLink!==""?gitLink:"#"}`}><Button style=" cursor-default border-[2px] border-gray-400 rounded-[2rem] transition-all ease-in-out duration-1000 hover:text-white hover:bg-black hover:scale-90 w-[7em] h-[3em] sm:w-[10em] sm:h-[4em] " content={"Github"}/></Link>
             
-            <Link target="_blank" rel="noopener noreferrer" underline="none" href={`${liveLink!==""?liveLink:"#"}`}><Button style="  cursor-default border-[2px] rounded-[2rem] transition-all ease-in-out duration-1000 hover:text-white hover:bg-black hover:scale-90 w-[7em] h-[3em] sm:w-[10em] sm:h-[4em] " content={"Live Demo"}/></Link>
+            <Link target="_blank" rel="noopener noreferrer" underline="none" href={`${liveLink!==""?liveLink:"#"}`}><Button style="  cursor-default border-[2px] border-gray-400 rounded-[2rem] transition-all ease-in-out duration-1000 hover:text-white hover:bg-black hover:scale-90 w-[7em] h-[3em] sm:w-[10em] sm:h-[4em] " content={"Live Demo"}/></Link>
         </div>
          </div>
 );
